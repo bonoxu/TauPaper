@@ -1,0 +1,640 @@
+@article{Aad:2012tfa,
+      author         = "Aad, Georges and others",
+      title          = "{Observation of a new particle in the search for the
+                        Standard Model Higgs boson with the ATLAS detector at the
+                        LHC}",
+      collaboration  = "ATLAS Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B716",
+      pages          = "1-29",
+      doi            = "10.1016/j.physletb.2012.08.020",
+      year           = "2012",
+      eprint         = "1207.7214",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2012-218",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7214;%%",
+}
+
+@article{Chatrchyan:2012ufa,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Observation of a new boson at a mass of 125 GeV with the
+                        CMS experiment at the LHC}",
+      collaboration  = "CMS Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B716",
+      pages          = "30-61",
+      doi            = "10.1016/j.physletb.2012.08.021",
+      year           = "2012",
+      eprint         = "1207.7235",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-HIG-12-028, CERN-PH-EP-2012-220",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7235;%%",
+}
+
+@article{Brau:2007zza,
+      author         = "Brau, James and Okada, Yasuhiro and Walker, Nicholas J.
+                        and Djouadi, Abdelhak and Lykken, Joseph and others",
+      editor         = "Brau, James",
+      title          = "{International Linear Collider reference design report.
+                        1: Executive summary. 2: Physics at the ILC. 3:
+                        Accelerator. 4: Detectors}",
+      year           = "2007",
+      reportNumber   = "ILC-REPORT-2007-001, AAI-PUB-2007-002, BNL-79150-2007,
+                        CERN-2007-006, CHEP-A07-001, CLNS-07-1991,
+                        COCKCROFT-07-04, DESY-07-046, FERMILAB-TM-2382,
+                        JAI-2007-001, JINR-E9-2007-039, JLAB-R-2007-01,
+                        KEK-REPORT-2007-2, LBNL-62867, LNF-07-9-NT, SLAC-R-857",
+      SLACcitation   = "%%CITATION = ILC-REPORT-2007-001 ETC.;%%",
+}
+
+@article{Baer:2013cma,
+      author         = "Baer, Howard and Barklow, Tim and Fujii, Keisuke and Gao,
+                        Yuanning and Hoang, Andre and others",
+      editor         = "Baer, Howard",
+      title          = "{The International Linear Collider Technical Design
+                        Report - Volume 2: Physics}",
+      year           = "2013",
+      eprint         = "1306.6352",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "ILC-REPORT-2013-040, ANL-HEP-TR-13-20,
+                        BNL-100603-2013-IR, IRFU-13-59, CERN-ATS-2013-037,
+                        COCKCROFT-13-10, CLNS-13-2085, DESY-13-062,
+                        FERMILAB-TM-2554, IHEP-AC-ILC-2013-001, INFN-13-04-LNF,
+                        JAI-2013-001, JINR-E9-2013-35, JLAB-R-2013-01,
+                        KEK-REPORT-2013-1, KNU-CHEP-ILC-2013-1, LLNL-TR-635539,
+                        SLAC-R-1004, ILC-HIGRADE-REPORT-2013-003",
+      SLACcitation   = "%%CITATION = ARXIV:1306.6352;%%",
+}
+
+@article{Abe:2010aa,
+      author         = "Abe, Toshinori and others",
+      title          = "{The International Large Detector: Letter of Intent}",
+      collaboration  = "ILD Concept Group - Linear Collider Collaboration",
+      year           = "2010",
+      eprint         = "1006.3396",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-LOI-2010-03, FERMILAB-PUB-09-682-E, DESY-09-87,
+                        KEK-REPORT-2009-6",
+      SLACcitation   = "%%CITATION = ARXIV:1006.3396;%%",
+}
+
+@article{Aihara:2010zz,
+      author         = "Aihara, H. and others",
+      title          = "{SiD Letter of Intent}",
+      collaboration  = "SiD",
+      year           = "2010",
+      reportNumber   = "SLAC-R-944",
+      SLACcitation   = "%%CITATION = SLAC-R-944 ETC.;%%",
+}
+
+@article{Davier:2009aa,
+      author         = "Davier, M. and others",
+      title          = "{IDAG report on the validation of letters of intent for ILC detectors}",
+      collaboration  = "IDAG",
+      year           = "2009",
+      reportNumber   = "ILC-REPORT-2009-021",
+      SLACcitation   = "%%CITATION = ILC-REPORT-2009-021 ETC.;%%",
+}
+
+@article{Linssen:2012hp,
+      author         = "Linssen, Lucie and Miyamoto, Akiya and Stanitzki, Marcel
+                        and Weerts, Harry",
+      editor         = "Linssen, Lucie",
+      title          = "{Physics and Detectors at CLIC: CLIC Conceptual Design
+                        Report}",
+      doi            = "10.5170/CERN-2012-003",
+      year           = "2012",
+      eprint         = "1202.5940",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CERN-2012-003, ANL-HEP-TR-12-01, DESY-12-008,
+                        KEK-REPORT-2011-7",
+      SLACcitation   = "%%CITATION = ARXIV:1202.5940;%%",
+}
+
+@article{Thomson:2009rp,
+      author         = "Thomson, M.A.",
+      title          = "{Particle Flow Calorimetry and the PandoraPFA Algorithm}",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A611",
+      pages          = "25-40",
+      doi            = "10.1016/j.nima.2009.09.009",
+      year           = "2009",
+      eprint         = "0907.3577",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CU-HEP-09-11",
+      SLACcitation   = "%%CITATION = ARXIV:0907.3577;%%",
+}
+
+@article{Marshall:2013bda,
+      author         = "Marshall, J.S. and Thomson, M.A.",
+      title          = "{Pandora Particle Flow Algorithm}",
+      pages          = "305-315",
+      year           = "2013",
+      eprint         = "1308.4537",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1308.4537;%%",
+}
+
+@article{Abramowicz:2013tzc,
+      author         = "Abramowicz, H. and others",
+      title          = "{Physics at the CLIC e+e- Linear Collider -- Input to the
+                        Snowmass process 2013}",
+      collaboration  = "CLIC Detector and Physics Study Collaboration",
+      year           = "2013",
+      eprint         = "1307.5288",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1307.5288;%%",
+}
+
+@article{Thomson:2007xb,
+      author         = "Thomson, Mark A.",
+      title          = "{Progress with particle flow calorimetry}",
+      journal        = "eConf",
+      volume         = "C0705302",
+      pages          = "SIM16",
+      year           = "2007",
+      eprint         = "0709.1360",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CU-HEP-07-08, LCWS-2007-SIM16, LCWS-2007-SIM16",
+      SLACcitation   = "%%CITATION = ARXIV:0709.1360;%%",
+}
+
+@article{Agostinelli:2002hh,
+      author         = "Agostinelli, S. and others",
+      title          = "{GEANT4: A Simulation toolkit}",
+      collaboration  = "GEANT4",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A506",
+      pages          = "250-303",
+      doi            = "10.1016/S0168-9002(03)01368-8",
+      year           = "2003",
+      reportNumber   = "SLAC-PUB-9350, FERMILAB-PUB-03-339",
+      SLACcitation   = "%%CITATION = NUIMA,A506,250;%%",
+}
+
+@article{MoradeFreitas:2002kj,
+      author         = "Mora de Freitas, P. and Videau, H.",
+      title          = "{Detector simulation with MOKKA / GEANT4: Present and
+                        future}",
+      pages          = "623-627",
+      year           = "2002",
+      reportNumber   = "LC-TOOL-2003-010",
+      SLACcitation   = "%%CITATION = LC-TOOL-2003-010 ETC.;%%",
+}
+
+@article{Gaede:2006pj,
+      author         = "Gaede, F.",
+      title          = "{Marlin and LCCD: Software tools for the ILC}",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A559",
+      pages          = "177-180",
+      doi            = "10.1016/j.nima.2005.11.138",
+      year           = "2006",
+      SLACcitation   = "%%CITATION = NUIMA,A559,177;%%",
+}
+
+%Paper citation from Proceedings of the 8th International Conference of Distributed Computing Systems
+
+@inproceedings{ condor-hunter,
+	author = "Michael Litzkow and Miron Livny and Matthew Mutka",
+	title = "{C}ondor - A Hunter of Idle Workstations",
+	booktitle = "Proceedings of the 8th International Conference of Distributed Computing Systems",
+	month = "June",
+	year = "1988",
+}
+
+%Paper citation from the "Usenix Summer Conference"
+
+@inproceedings{  litzkow-cycles,
+	author = "Michael Litzkow",
+	title = "Remote Unix - Turning Idle Workstations into Cycle Servers",
+	booktitle = "Usenix Summer Conference",
+	year = "1987",
+	pages = "381--384",
+}
+
+@article{Bird:2011zz,
+      author         = "Bird, Ian",
+      title          = "{Computing for the Large Hadron Collider}",
+      journal        = "Ann.Rev.Nucl.Part.Sci.",
+      volume         = "61",
+      pages          = "99-118",
+      doi            = "10.1146/annurev-nucl-102010-130059",
+      year           = "2011",
+      SLACcitation   = "%%CITATION = ARNUA,61,99;%%",
+}
+
+@article{Beringer:1900zz,
+      author         = "Beringer, J. and others",
+      title          = "{Review of Particle Physics (RPP)}",
+      collaboration  = "Particle Data Group",
+      journal        = "Phys.Rev.",
+      volume         = "D86",
+      pages          = "010001",
+      doi            = "10.1103/PhysRevD.86.010001",
+      year           = "2012",
+      SLACcitation   = "%%CITATION = PHRVA,D86,010001;%%",
+}
+
+@article{Alcaraz:2006mx,
+      author         = "Alcaraz, J. and others",
+      title          = "{A Combination of preliminary electroweak measurements
+                        and constraints on the standard model}",
+      collaboration  = "ALEPH Collaboration, DELPHI Collaboration, L3
+                        Collaboration, OPAL Collaboration, LEP Electroweak Working
+                        Group",
+      year           = "2006",
+      eprint         = "hep-ex/0612034",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2006-042, LEPEWWG-2006-01,
+                        ALEPH-2006-001-PHYSICS-2006-001, DELPHI-2006-014-PHYS-948,
+                        L3-NOTE-2833, OPAL-PR-419",
+      SLACcitation   = "%%CITATION = HEP-EX/0612034;%%",
+}
+
+
+@incollection{ ISI:000325779200026,
+        Author = {Thomson, M},
+        Title = {{Modern Particle Physics}},
+        Booktitle = {{MODERN PARTICLE PHYSICS}},
+        Year = {{2013}},
+        Pages = {{440-450}},
+        Publisher = {{CAMBRIDGE UNIV PRESS}},
+        Address = {{THE PITT BUILDING, TRUMPINGTON ST, CAMBRIDGE CB2 1RP, CAMBS, ENGLAND}},
+        Type = {{Book}},
+        Language = {{English}},
+        ISBN = {{978-1-107-03426-6}},
+        Keywords-Plus = {{INELASTIC ELECTRON-SCATTERING; PROTON SCATTERING; STANDARD MODEL; BOSON;
+           LEP; ANNIHILATION; BEHAVIOR; DETECTOR; DECAYS; SLAC}},
+        Research-Areas = {{Physics}},
+        Web-of-Science-Categories  = {{Physics, Particles \& Fields}},
+        Number-of-Cited-References = {{60}},
+        Times-Cited = {{0}},
+        Doc-Delivery-Number = {{BHL34}},
+        Unique-ID = {{ISI:000325779200026}},
+}
+
+@article{Acciarri:1997wf,
+      author         = "Acciarri, M. and others",
+      title          = "{Production of Single $W$ Bosons at LEP}",
+      collaboration  = "L3 Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B403",
+      pages          = "168-176",
+      doi            = "10.1016/S0370-2693(97)00527-3",
+      year           = "1997",
+      reportNumber   = "CERN-PPE-97-028, CERN-PPE-97-28",
+      SLACcitation   = "%%CITATION = PHLTA,B403,168;%%",
+}
+
+
+@article{Achard:2002bx,
+      author         = "Achard, P. and others",
+      title          = "{Study of the $e^{+} e^{-} \to Z e^{+} e^{-}$ process at
+                        LEP}",
+      collaboration  = "L3 Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B561",
+      pages          = "73-81",
+      doi            = "10.1016/S0370-2693(03)00406-4",
+      year           = "2003",
+      eprint         = "hep-ex/0303041",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2002-103",
+      SLACcitation   = "%%CITATION = HEP-EX/0303041;%%",
+}
+
+@article{Hagiwara:1990gk,
+      author         = "Hagiwara, Kaoru and Iwasaki, H. and Miyamoto, A. and
+                        Murayama, H. and Zeppenfeld, D.",
+      title          = "{Single weak boson production at TeV e+ e- colliders}",
+      journal        = "Nucl.Phys.",
+      volume         = "B365",
+      pages          = "544-596",
+      doi            = "10.1016/0550-3213(91)90442-Z",
+      year           = "1991",
+      reportNumber   = "KEK-TH-255, KEK-PREPRINT-90-40, DTP-90-82, HUPD-9015,
+                        UT-574-TOKYO, MAD-PH-417",
+      SLACcitation   = "%%CITATION = NUPHA,B365,544;%%",
+}
+
+@article{Sjostrand:1995iq,
+      author         = "Sjostrand, Torbjorn",
+      title          = "{PYTHIA 5.7 and JETSET 7.4: Physics and manual}",
+      year           = "1995",
+      eprint         = "hep-ph/9508391",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "LU-TP-95-20, CERN-TH-7112-93-REV",
+      SLACcitation   = "%%CITATION = HEP-PH/9508391;%%",
+}
+
+@article{whizard,
+        Author = {Wolfgang Kilian and Thorsten Ohl and Jurgen Reuter},
+        Date-Added = {2014-06-14 10:49:52 +0000},
+        Date-Modified = {2014-06-14 10:55:06 +0000},
+        Journal = {{E}uropean {P}hysical {J}ournal {C}},
+        Title = {WHIZARD -- Simulating Multi-Particle Processes at LHC and ILC},
+        Volume = {71},
+        Year = {2011},
+}
+
+@article{Cacciari:2011ma,
+      author         = "Cacciari, Matteo and Salam, Gavin P. and Soyez, Gregory",
+      title          = "{FastJet User Manual}",
+      journal        = "Eur.Phys.J.",
+      volume         = "C72",
+      pages          = "1896",
+      doi            = "10.1140/epjc/s10052-012-1896-2",
+      year           = "2012",
+      eprint         = "1111.6097",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2011-297",
+      SLACcitation   = "%%CITATION = ARXIV:1111.6097;%%",
+}
+
+@unpublished{Angela:2013a,
+      author         = "Angela Lucaci-Timoce",
+      title          = "{Tau reconstruction in $\Pem\Pep \to \APtauon\Ptauon$ events}",
+      note            = "http://indico.cern.ch/event/262813/contribution/2/material/slides/0.pdf",
+      year           = "2013",
+      url           = "http://indico.cern.ch/event/262813/contribution/2/material/slides/0.pdf",
+}
+
+@article{Therhaag:2009dp,
+      author         = "Therhaag, Jan",
+      title          = "{TMVA: Toolkit for multivariate data analysis}",
+      collaboration  = "TMVA Core Developer Team",
+      journal        = "AIP Conf.Proc.",
+      volume         = "1504",
+      pages          = "1013-1016",
+      doi            = "10.1063/1.4771869",
+      year           = "2009",
+      SLACcitation   = "%%CITATION = APCPC,1504,1013;%%",
+}
+
+@article{Brun:1997pa,
+      author         = "Brun, R. and Rademakers, F.",
+      title          = "{ROOT: An object oriented data analysis framework}",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A389",
+      pages          = "81-86",
+      doi            = "10.1016/S0168-9002(97)00048-X",
+      year           = "1997",
+      SLACcitation   = "%%CITATION = NUIMA,A389,81;%%",
+}
+
+
+@article{Arnison:1983rp,
+      author         = "Arnison, G. and others",
+      title          = "{Experimental Observation of Isolated Large Transverse
+                        Energy Electrons with Associated Missing Energy at
+                        s**(1/2) = 540-GeV}",
+      collaboration  = "UA1 Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B122",
+      pages          = "103-116",
+      doi            = "10.1016/0370-2693(83)91177-2",
+      year           = "1983",
+      reportNumber   = "CERN-EP-83-13",
+      SLACcitation   = "%%CITATION = PHLTA,B122,103;%%",
+}
+
+@article{Arnison:1983mk,
+      author         = "Arnison, G. and others",
+      title          = "{Experimental Observation of Lepton Pairs of Invariant
+                        Mass Around 95-GeV/c**2 at the CERN SPS Collider}",
+      collaboration  = "UA1 Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B126",
+      pages          = "398-410",
+      doi            = "10.1016/0370-2693(83)90188-0",
+      year           = "1983",
+      reportNumber   = "CERN-EP-83-73",
+      SLACcitation   = "%%CITATION = PHLTA,B126,398;%%",
+}
+
+@article{Bagnaia:1983zx,
+      author         = "Bagnaia, P. and others",
+      title          = "{Evidence for Z0 ---&gt; e+ e- at the CERN anti-p p
+                        Collider}",
+      collaboration  = "UA2 Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B129",
+      pages          = "130-140",
+      doi            = "10.1016/0370-2693(83)90744-X",
+      year           = "1983",
+      reportNumber   = "CERN-EP-83-112",
+      SLACcitation   = "%%CITATION = PHLTA,B129,130;%%",
+}
+
+@article{Glashow:1961tr,
+      author         = "Glashow, S.L.",
+      title          = "{Partial Symmetries of Weak Interactions}",
+      journal        = "Nucl.Phys.",
+      volume         = "22",
+      pages          = "579-588",
+      doi            = "10.1016/0029-5582(61)90469-2",
+      year           = "1961",
+      SLACcitation   = "%%CITATION = NUPHA,22,579;%%",
+}
+
+@article{Weinberg:1967tq,
+      author         = "Weinberg, Steven",
+      title          = "{A Model of Leptons}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "19",
+      pages          = "1264-1266",
+      doi            = "10.1103/PhysRevLett.19.1264",
+      year           = "1967",
+      SLACcitation   = "%%CITATION = PRLTA,19,1264;%%",
+}
+@article{Veltman:1980fk,
+      author         = "Veltman, M.J.G.",
+      title          = "{Radiative Corrections to Vector Boson Masses}",
+      journal        = "Phys.Lett.",
+      volume         = "B91",
+      pages          = "95",
+      doi            = "10.1016/0370-2693(80)90669-3",
+      year           = "1980",
+      reportNumber   = "Print-80-0097 (ANNECY)",
+      SLACcitation   = "%%CITATION = PHLTA,B91,95;%%",
+}
+
+@article{Antonelli:1980au,
+      author         = "Antonelli, Francesco and Consoli, Maurizio and Corbo,
+                        Guido",
+      title          = "{One Loop Correction to Vector Boson Masses in the
+                        Glashow-Weinberg-Salam Model of Electromagnetic and Weak
+                        Interactions}",
+      journal        = "Phys.Lett.",
+      volume         = "B91",
+      pages          = "90",
+      doi            = "10.1016/0370-2693(80)90668-1",
+      year           = "1980",
+      reportNumber   = "ROME-176-1980",
+      SLACcitation   = "%%CITATION = PHLTA,B91,90;%%",
+}
+
+@article{Marciano:1979yg,
+      author         = "Marciano, William J.",
+      title          = "{The Weak Mixing Angle and Grand Unified Gauge Theories}",
+      journal        = "Phys.Rev.",
+      volume         = "D20",
+      pages          = "274",
+      doi            = "10.1103/PhysRevD.20.274",
+      year           = "1979",
+      reportNumber   = "COO-2232B-17, COO-2232B-173",
+      SLACcitation   = "%%CITATION = PHRVA,D20,274;%%",
+}
+
+@article{Sirlin:1980nh,
+      author         = "Sirlin, A.",
+      title          = "{Radiative Corrections in the SU(2)-L x U(1) Theory: A
+                        Simple Renormalization Framework}",
+      journal        = "Phys.Rev.",
+      volume         = "D22",
+      pages          = "971-981",
+      doi            = "10.1103/PhysRevD.22.971",
+      year           = "1980",
+      reportNumber   = "PRINT-80-0267 (IAS,PRINCETON)",
+      SLACcitation   = "%%CITATION = PHRVA,D22,971;%%",
+}
+
+@article{Schael:2005am,
+      author         = "Schael, S. and others",
+      title          = "{Branching ratios and spectral functions of tau decays:
+                        Final ALEPH measurements and physics implications}",
+      collaboration  = "ALEPH",
+      journal        = "Phys. Rept.",
+      volume         = "421",
+      year           = "2005",
+      pages          = "191-284",
+      doi            = "10.1016/j.physrep.2005.06.007",
+      eprint         = "hep-ex/0506072",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = HEP-EX/0506072;%%"
+}
+
+@Article{Tran2016,
+      author="Tran, T. H.
+      and Balagura, V.
+      and Boudry, V.
+      and Brient, J.-C.
+      and Videau, H.",
+      title="Reconstruction and classification of tau lepton decays with ILD",
+      journal="The European Physical Journal C",
+      year="2016",
+      volume="76",
+      number="8",
+      pages="468",
+      issn="1434-6052",
+      doi="10.1140/epjc/s10052-016-4315-2",
+      url="http://dx.doi.org/10.1140/epjc/s10052-016-4315-2"
+}
+
+@Article{Reinhard2009,
+	author = "M. Reinhard, J.-C. Brient",
+	title = "GARLIC - GAmma Reconstruciton for the LInear Collider",
+	booktitle = "Proccedings of International Linear Collider Workshop (LCWS08 and ILC08, Chicago, Illinois)",
+	year = "2009",
+}
+
+
+@article{Jeans:2012jj,
+      author         = "Jeans, D. and Brient, J. C. and Reinhard, M.",
+      title          = "{GARLIC: GAmma Reconstruction at a LInear Collider
+                        experiment}",
+      journal        = "JINST",
+      volume         = "7",
+      year           = "2012",
+      pages          = "P06003",
+      doi            = "10.1088/1748-0221/7/06/P06003",
+      eprint         = "1203.0774",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1203.0774;%%"
+}
+
+@article{Marshall:2012ry,
+      author         = "Marshall, J. S. and Münnich, A. and Thomson, M. A.",
+      title          = "{Performance of Particle Flow Calorimetry at CLIC}",
+      journal        = "Nucl. Instrum. Meth.",
+      volume         = "A700",
+      year           = "2013",
+      pages          = "153-162",
+      doi            = "10.1016/j.nima.2012.10.038",
+      eprint         = "1209.4039",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CU-HEP-12-12",
+      SLACcitation   = "%%CITATION = ARXIV:1209.4039;%%"
+}
+
+@article{Jadach:1993hs,
+      author         = "Jadach, S. and Was, Z. and Decker, R. and Kuhn, Johann
+                        H.",
+      title          = "{The tau decay library TAUOLA: Version 2.4}",
+      journal        = "Comput. Phys. Commun.",
+      volume         = "76",
+      year           = "1993",
+      pages          = "361-380",
+      doi            = "10.1016/0010-4655(93)90061-G",
+      reportNumber   = "CERN-TH-6793-93",
+      SLACcitation   = "%%CITATION = CPHCB,76,361;%%"
+}
+
+@ARTICLE{Gaede:82475,
+      author       = {Gaede, F. and Engels, J.},
+      title        = {{M}arlin et al - {A} {S}oftware {F}ramework for {ILC}
+                      detector ${R}\\&{D}$},
+      journal      = {EUDET Report},
+      reportid     = {PHPPUBDB-5074, EUDET-Report-2007-11},
+      year         = {2007},
+      cin          = {IT},
+      cid          = {$I:(DE-H253)IT_-2012_-20120307$},
+      pnm          = {Facility (machine) ILC $R\&D$ (POF1-510)},
+      pid          = {G:(DE-H253)POF1-ILC-20130405},
+      experiment   = {EXP:(DE-H253)ILC(machine)-20150101},
+      typ          = {PUB:(DE-HGF)25},
+      url          = {http://bib-pubdb1.desy.de/record/82475},
+}
+
+@inproceedings{Xu:2016rcz,
+      author         = "Xu, Boruo",
+      title          = "{Improvement of photon reconstruction in PandoraPFA}",
+      booktitle      = "{Proceedings, International Workshop on Future Linear
+                        Colliders (LCWS15): Whistler, B.C., Canada, November
+                        02-06, 2015}",
+      url            = "http://inspirehep.net/record/1425537/files/arXiv:1603.00013.pdf",
+      year           = "2016",
+      eprint         = "1603.00013",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1603.00013;%%"
+}
+
+@article{Agashe:2014kda,
+      author         = "Olive, K. A. and others",
+      title          = "{Review of Particle Physics}",
+      collaboration  = "Particle Data Group",
+      journal        = "Chin. Phys.",
+      volume         = "C38",
+      year           = "2014",
+      pages          = "090001",
+      doi            = "10.1088/1674-1137/38/9/090001",
+      SLACcitation   = "%%CITATION = CHPHD,C38,090001;%%"
+}

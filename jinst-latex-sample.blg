@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: jinst-latex-sample.aux
+The style file: h-physrev3.bst
+Database file #1: bib.bib
+Warning--I didn't find a database entry for ""
+You've used 16 entries,
+            1957 wiz_defined-function locations,
+            730 strings with 7667 characters,
+and the built_in function-call counts, 3110 in all, are:
+= -- 199
+> -- 174
+< -- 1
++ -- 58
+- -- 38
+* -- 233
+:= -- 427
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 174
+empty$ -- 321
+format.name$ -- 54
+if$ -- 712
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 16
+newline$ -- 80
+num.names$ -- 16
+pop$ -- 82
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 121
+stack$ -- 0
+substring$ -- 111
+swap$ -- 42
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 25
+width$ -- 18
+write$ -- 141
+(There was 1 warning)

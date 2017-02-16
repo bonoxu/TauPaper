@@ -1,0 +1,6 @@
+% simple_labels.t1 -- generated from simple_labels.mp
+\fmfL(19.99997,10.3912,t){\Pphoton , \PZzero }%
+\fmfL(2.33847,-1.29825,rt){\Pelectron }%
+\fmfL(2.33847,26.29825,rb){\APelectron }%
+\fmfL(37.66153,-1.29825,lt){\Ptauon }%
+\fmfL(37.66153,26.29825,lb){\APtauon }%

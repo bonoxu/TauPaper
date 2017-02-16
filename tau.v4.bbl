@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{Schael:2005am}
+ALEPH, S.~Schael {\em et~al.},
+\newblock Phys. Rept. {\bf 421}, 191 (2005), hep-ex/0506072.
+%%CITATION = HEP-EX/0506072;%%
+
+\bibitem{Linssen:2012hp}
+L.~Linssen, A.~Miyamoto, M.~Stanitzki, and H.~Weerts,
+\newblock (2012), 1202.5940.
+%%CITATION = ARXIV:1202.5940;%%
+
+\bibitem{Abe:2010aa}
+ILD Concept Group - Linear Collider Collaboration, T.~Abe {\em et~al.},
+\newblock (2010), 1006.3396.
+%%CITATION = ARXIV:1006.3396;%%
+
+\bibitem{Thomson:2009rp}
+M.~Thomson,
+\newblock Nucl.Instrum.Meth. {\bf A611}, 25 (2009), 0907.3577.
+%%CITATION = ARXIV:0907.3577;%%
+
+\bibitem{Brau:2007zza}
+J.~Brau {\em et~al.},
+\newblock (2007).
+%%CITATION = ILC-REPORT-2007-001 ETC.;%%
+
+\bibitem{Marshall:2015rfa}
+J.~S. Marshall and M.~A. Thomson,
+\newblock Eur. Phys. J. {\bf C75}, 439 (2015), 1506.05348.
+%%CITATION = ARXIV:1506.05348;%%
+
+\bibitem{whizard}
+W.~Kilian, T.~Ohl, and J.~Reuter,
+\newblock {E}uropean {P}hysical {J}ournal {C} {\bf 71} (2011).
+
+\bibitem{Sjostrand:1995iq}
+T.~Sjostrand,
+\newblock (1995), hep-ph/9508391.
+%%CITATION = HEP-PH/9508391;%%
+
+\bibitem{Jadach:1993hs}
+S.~Jadach, Z.~Was, R.~Decker, and J.~H. Kuhn,
+\newblock Comput. Phys. Commun. {\bf 76}, 361 (1993).
+%%CITATION = CPHCB,76,361;%%
+
+\bibitem{MoradeFreitas:2002kj}
+P.~Mora~de Freitas and H.~Videau,
+\newblock p. 623 (2002).
+%%CITATION = LC-TOOL-2003-010 ETC.;%%
+
+\bibitem{Agostinelli:2002hh}
+GEANT4, S.~Agostinelli {\em et~al.},
+\newblock Nucl.Instrum.Meth. {\bf A506}, 250 (2003).
+%%CITATION = NUIMA,A506,250;%%
+
+\bibitem{Gaede:82475}
+F.~Gaede and J.~Engels,
+\newblock EUDET Report  (2007).
+
+\bibitem{Xu:2016rcz}
+B.~Xu,
+\newblock {Improvement of photon reconstruction in PandoraPFA},
+\newblock in {\em {Proceedings, International Workshop on Future Linear
+  Colliders (LCWS15): Whistler, B.C., Canada, November 02-06, 2015}}, 2016,
+  1603.00013.
+%%CITATION = ARXIV:1603.00013;%%
+
+\bibitem{Agashe:2014kda}
+Particle Data Group, K.~A. Olive {\em et~al.},
+\newblock Chin. Phys. {\bf C38}, 090001 (2014).
+%%CITATION = CHPHD,C38,090001;%%
+
+\bibitem{Therhaag:2009dp}
+TMVA Core Developer Team, J.~Therhaag,
+\newblock AIP Conf.Proc. {\bf 1504}, 1013 (2009).
+%%CITATION = APCPC,1504,1013;%%
+
+\end{thebibliography}
