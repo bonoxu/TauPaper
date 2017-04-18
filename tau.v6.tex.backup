@@ -13,9 +13,11 @@
 \usepackage{mathptmx}
 
 %\usepackage[caption=false]{subfig}
-\usepackage{subfloat}
+%\usepackage{subfigure}
+\usepackage{subcaption}
 %\usepackage{feynmp-auto}
 \usepackage{color}
+\usepackage{gensymb}
 \unitlength = 1mm
 
 %\makeatletter
@@ -53,6 +55,8 @@
 \newcommand{\decayAiPionShort}{\PaDoP{\PGpm\PGpm\PGpp}}
 \newcommand{\decayThreePionPhotonShort}{\PGpm\PGpm\PGpp\PGpz}
 
+\newcommand{\higgsToTauTau}{\PHiggs $\to$ \PGtm \PGtp}
+\newcommand{\eeToTauTau}{\Pem\Pep $\to$ \PGtm\PGtp}
 \newcommand{\rootS}{\ensuremath{\sqrt{s}} }
 
 
@@ -86,10 +90,12 @@
 
 \abstract
 {
-Seven tau lepton decay final states were studied using simulated data, for the proposed Compact Linear Collider.  at a future \Pem\Pep Linear Collider.
-
-
-Seven tau lepton decay final states were examined at the future \Pem\Pep Linear Collider. Tau leptonic physics is important as the branching ratio provides a precision test of the Standard Model. The spin state of the tau can  be used to measure the CP of the Higgs using the Higgs decaying to a tau pair channel. The classification efficiencies of hadronic tau decay is also a benchmark test for the detector performance. In this paper, the leptonic, hadronic 1-prong and hadronic 3-prong final sates of the tau lepton were classified for the centre of mass (\rootS) \Pem\Pep collision energies of 100, 200, 500 and 1000\,GeV and for the silicon-tungsten electromagnetic calorimeter (ECal) cell sizes from 3 to 20\,mm. The main challenge of the classification is the reconstruction and the separation of nearby photons as individual entities as well as he correct association of the tracks from the tracking system to the deposited energy shower. The unprecedented high classification rate of final decay separation is achieved. The overall hadronic decay selection efficiency is over 90\% for c.o.m. \rootS = 100\,GeV for the range of the ECal cell sizes, whilst the selection efficiency degrades significantly from 3\,mm to 20\,mm ECal cell size for \rootS = 500 and 1000\,GeV.
+Seven tau lepton decay final states were studied using simulated data, for the proposed Compact Linear Collider. 
+Tau leptonic physics is important. Its branching ratios measurements provide precision tests of the Standard Model. Spin state of a tau lepton can  be used to measure the CP properties of the Higgs boson, via the Higgs to a tau pair decay.
+Classification efficiency of tau lepton decay is a benchmark of detector performance.
+In this paper, seven final states were reconstructed and classified for centre of mass (\rootS) of 100, 200, 500 and 1000\,GeV, and for silicon-tungsten electromagnetic calorimeter (ECal) square cell sizes of 3, 5, 7, 10, 15, and 20\,mm.
+Major challenges for classification include reconstucting multiple nearby photons as separate entities, and correct assoication of inner detector tracks to energy deposited in calorimeters. 
+Efficient classification of decay final state is achieved. Overall hadronic decay classification effciency is over 90\% for \rootS = 100\,GeV, across all ECal square cell sizes. The effciency degrages significantly as ECal square cell sizes increase from 3 to 20\,mm, for \rootS = 500 and 1000\,GeV.
 }
 \keywords{TODO: Only keywords from JINST's keywords list please}
 
@@ -117,72 +123,54 @@ Seven tau lepton decay final states were examined at the future \Pem\Pep Linear 
 
 \section{Introduction}
 
-Tau lepton has been examined extensively in the past to study its physics and to use it as a detector benchmark test. 
+The tau lepton has been examined extensively in the past. In particular, detailed studies were performed at the Large Electron Positron Collider (LEP)\cite{Schael:2005am}. The properties of tau lepton decay  provide precision tests of the Standard Model and models beyond the Standard Model. Such properties include tau decay branching ratios, and total tau hadronic decay width, which depends on the strong coupling constant. The spin state of tau lepton, which can be inferred from kinematic properties of tau decay products, can be used to measure the CP (the product of charge conjugation and parity symmetries) of the Higgs, via \higgsToTauTau channel. 
 
-Many experiments, including the Large Electron Positron Collider (LEP), has studied the tau lepton to great details \cite{Schael:2005am}. The total tau lepton hadronic decay width, which depends on the strong coupling constant, and the branch ratio of tau decay provide precision tests of the Standard Model and models beyond the Standard Model. The spin state of the tau lepton could be inferred from the kinematic properties of the decay products and can be used to measure the CP (the product of charge conjugation and parity symmetries) of the Higgs with a Higgs decaying to a tau pair channel. 
+Performance of tau decay mode classcification provides a benchmark of detector performance. Since the tau lepton has a very short lifetime \cite{Abreu:1991jn}, it decays in the inner detector before reaching the calorimeter. Typical tau decay products are charged particles, and multiple photons from \PGpz. Reconstruction of multiple nearby photons requires an excellent electromagnetic calorimeter (ECal) spatial resolution. Separating different charged particle relies on performance of the inner detector tracking system. 
 
-The efficiency of the final state separation of tau decay also provides a good benchmark of the detector performance. The tau lepton has a very short life time and it will decay before reaching the calorimeter. The typical decay products of the tau lepton are multiple photons and charged particles. The reconstruction of the multiple nearby photons requires an excellent electromagnetic calorimeter (ECal) resolution, whilst separating different charged particle relies on the performance of the tracking system. 
-
-
-The study presented in this paper was done using the CLIC\_ILD detector concept with the PandoraPFA software package. A previous study with the International Large Detector (ILD) in the context of the International Linear Collider (ILC) was performed, where the impact of the varying the magnetic field and the size of the ECal were discussed. The CLIC\_ILD detector concept \cite{Linssen:2012hp} is designed for the Compact LInear Collider (CLIC) based on the ILD detector \cite{Abe:2010aa}, shown in figure~\ref{fig:ILD}, consisting of a vertex detector, tracking detectors, ECal, hadronic calorimeter (HCal) and a muon chamber. The ECal and HCal are optimised for the particle flow approach \cite{Thomson:2009rp} with high granularity in both longitudinal and transverse direction, providing unprecedented jet energy resolutions.
+% A previous study was performed with the International Large Detector (ILD) \cite{Abe:2010aa} in the context of the International Linear Collider (ILC) \cite{Brau:2007zza}
+The study was done in the context of the CLIC\_ILD detector concept \cite{Linssen:2012hp} with the PandoraPFA software package \cite{Marshall:2015rfa}. The CLIC\_ILD detector concept is designed for the Compact LInear Collider (CLIC) \cite{Linssen:2012hp} based on the ILD detector \cite{Abe:2010aa}. A cross section of the CLIC\_ILD detector is shown in figure~\ref{fig:ILD}. The detector consists of vertex detectors, tracking detectors, electromagnetic calorimeters, hadronic calorimeters (HCal) and muon chambers. Magnetic field is optimised for the particle flow approach (PFA) to calorimetry \cite{Thomson:2009rp} with high granularity in both longitudinal and transverse direction, providing unprecedented jet energy resolutions.
 
 \begin{figure}[htbp]
 \centering % \begin{center}/\end{center} takes some additional vertical space
 
 \includegraphics[width=.45\textwidth]{plots/CLICILD.eps}
 \qquad
-\caption{\label{fig:ILD} Longitudinal cross section of the top quadrant of CLIC\_ILD, taken from \cite{Linssen:2012hp}
+\caption{\label{fig:ILD} Longitudinal cross section of top quadrant of the CLIC\_ILD detector concept, taken from \cite{Linssen:2012hp}
 }
 \end{figure}
 
+Particle flow approach to calorimetry aims to reconstruct individual particles. This makes an efficient tau decay mode classfication possible. PandoraPFA, \cite{Marshall:2015rfa}, a leading pattern recognition software, has demonstrated it ability to exploit information from high granular calorimeters in the context of future linear colliders. Charged particles are reconstructed by projecting tracks from inner tracking detector and associating calorimeter hits to these tracks. Photons are reconstructed from calroimeter hits in the ECal, with comparision to expected electromagnetic shower profiles. Neutral hadrons are reconstructed from calroimeter hits in the HCal. The output of the PandoraPFA is Particle Flow Object (PFO), which contains energy, momentum, position, particle id and other information.
 
-%Tau lepton has been studied in the Large Electron Positron Collider (LEP) and other experiments and the decay of the tau provides a probe to the precision test of the Standard Model. The spin of the tau lepton can also be inferred from the decay product and be used to measure the CP of the Higgs decaying to a tau pair.
+Ability to separate tau decay modes relies on photon reconstruction. Calorimeter hits in the ECal are clustered and carefully isolated from nearby charged particles. These clusters are compared with expected electromagnetic shower profiles, using a likelihood based classcifier. Separate algorithms split merged photons and combine small photon fragments to main photons. Photon reconstruction in PandoraPFA is described in \cite{Xu:2016rcz}.
 
-%Tau lepton is important. Good to study. It has interesting physics, spins, differentiating higgs to z. 
+%The difficulty of the \PGt decay mode separation is to correctly reconstruct photons in the final states. Two main features of the reconstruction software, PandoraPFA \cite{Marshall:2015rfa}, help to separate the final states. Firstly, the iterative track cluster association algorithms connecting reconstructed tracks to the cluster showers in the calorimeters, providing a good identification of the charged particles and leave a cleaner environment for the neutral particles. Secondly, a transverse calorimeter shower profile based photon reconstruction algorithm carefully identifies and separates nearby photons, using a likelihood photon identification algorithm. Along side with other reconstruction algorithms in the PandoraPFA software, charged particles and photons are well reconstructed and used as inputs for \PGt decay mode separation.
 
-
-%Final state separation of tau decay provides a good benchmark of the detector performance. The tau lepton has a very short life time and it will decay before reaching the calorimeter. As many of the final states of the tau decay consist of boosted charged particles with different numbers of photons and the ECal provides important calorimetric information for correctly reconstructing and separating nearby photons, this makes tau lepton decay final state separation suitable for the electromagnetic calorimeter (ECal) optimisation.
-
-% The final sate separation is a good benchmark for the detector optimisation, as it tests the reconstruction of nearby photons, electron and muons. 
-
-
-%A previous study with the International Large Detector (ILD) in the context of the International Linear Collider (ILC) was performed \cite{Tran2016}. Photons were reconstructed with GARLIC software package \cite{Reinhard2009,Jeans:2012jj} where the impact of the varying the magnetic field and the size of the ECal were discussed. It was shown that about 95\,\% \Ppiminus\Pnut and 90\,\% \Prhominus\Pnut and \Pai\Pnut final states were correctly reconstructed.
-
-%It was shown that the ILD could separate the one \Ppipm hadronic decay final states with high probabilities.
-
-% Previous study has been done on the ILD detector. Results were shown. Impact on B field and ECal sizes were studied.
-
-% A new CLIC detector model is being designed with a Silicon tracking system in mind.
-
-%Studied was done on CLIC\_ILD detector. CLIC\_ILD is designed based on the ILD detector, with a complicated tracking system including a TPC, a Si W fine granular ECAL aimed for PFA. A new CLIC detector model is being designed with a Si tracking system in mind.
-
-The difficulty of the \PGt decay mode separation is to correctly reconstruct photons in the final states. Two main features of the reconstruction software, PandoraPFA \cite{Marshall:2015rfa}, help to separate the final states. Firstly, the iterative track cluster association algorithms connecting reconstructed tracks to the cluster showers in the calorimeters, providing a good identification of the charged particles and leave a cleaner environment for the neutral particles. Secondly, a transverse calorimeter shower profile based photon reconstruction algorithm carefully identifies and separates nearby photons, using a likelihood photon identification algorithm. Along side with other reconstruction algorithms in the PandoraPFA software, charged particles and photons are well reconstructed and used as inputs for \PGt decay mode separation.
-
-In this paper, we present a study for the separation of tau lepton decay final states, to demonstrate the high classification rate, with varying sizes of the ECal cells and the centre of mass  energies (\rootS) of the \Pem\Pep $\to$ \PGtm\PGtp interaction.
+This paper describes the reconstruction and classcification of tau lepton decay modes. The classcification is used for the ECal optimisation, with varying ECal square cell sizes, using different centre of mass energies (\rootS) for \eeToTauTau interaction.
 
 
 \section{Simulation and Reconstruction}
+\label{section:MC}
+Simulated Monte Carlo (MC) samples were generated with the generator software WHIZARD 1.95 \cite{whizard}, with PYTHIA 6.4 \cite{Sjostrand:1995iq}  used for the hadronisation and  tuned to the LEP results \cite{}. TAUOLA \cite{Jadach:1993hs} is used to describe the \PGt lepton decays with correct spin correlation between decay products. The initial state radiation (ISR) and the beam induced background were not simulated, but final state radiation (FSR) was simulated. This study is aimed for detector optimisation. Hence a clean detector enviornment is preferred to maximise the effect of the calorimeter design on the performance of the tau decay classcification.
 
-Simulated Monte Carlo (MC) samples were generated with the generator software WHIZARD 1.95 \cite{whizard}, where PYTHIA 6.4 \cite{Sjostrand:1995iq} is used for the hadronisation and is tuned to the LEP results \cite{}. TAUOLA \cite{Jadach:1993hs} is used to describe the \PGt lepton decays with correct spin effect. The initial state radiation (ISR) and the beam induced background were not simulated, but final state radiation (FSR) was simulated. 
+Around two millions \eeToTauTau MC simulated events were gneerated, for each ECal square cell size of 3, 5, 7, 10, 15 and 20 mm, and for each \rootS energy of 100, 200, 500 and 1000\,GeV. In total, 48 millions simulated events were generated. Generated events were considered in the subsequent analysis if they pass a series of generator level selection cuts designed to isolate the effect of the calorimeter design on the performance of the tau decay classcification. Around 60\% of generated events passed the selection cuts.
 
-Around two millions MC events per ECal cell size and per \rootS energy were simulated. An event was considered if the event passes a set of cuts at generator level, listed here
-\begin{itemize}
-  \item the final state photons not converting to electron pair in the tracker,
-  \item the tau leptons decaying in the barrel and the end cap regions, which are defined as polar angle between 0.3 to 0.6 rad and 0.8 to 1.57 rad, and
-  \item the visible energy of the tau lepton decay products more than 5\,GeV, where the visible energy of the tau lepton decay is defined as the energy of the tau minus the energy of the tau neutrino. 
-\end{itemize}
+Events are discarded if simulated photons convert before reaching the calorimeters. Converted photons would not be reconstructed as photons, and events with converted photons would decrease the classification efficiency. That degredation would not be due to the calorimeter design.
 
-Events were simulated with software MOKKA \cite{MoradeFreitas:2002kj} with the CLIC\_ILD detector geometry description, based on the GEANT 4 package  \cite{Agostinelli:2002hh}. Events were reconstructed with ilcsoft version v01-17-07 \cite{Gaede:82475} and PandoraPFA version v02-02-00 \cite{Marshall:2015rfa}, where the photon reconstruction is described in \cite{Xu:2016rcz}.
+Events are also discarded if total energy of the tau lepton visible decay products is less than 5\,GeV. This ensures the decay products properly reconstructed.
 
-The events were simulated at \rootS = 100, 200, 500 and 1000 GeV, with different ECal square cell sizes of 3, 5, 7, 10, 15 and 20 mm.
+Events are further discarded if tau leptons are not with the barrel and end cap calorimeter regions. The polar angle for the end cap region is defined $ 17.2\degree < |\theta_{Z}| < 34.4\degree$. The polar angle for the barrel region is defined $ 45.8\degree < |\theta_{Z}| < 90\degree$. Very forward region of the detector is not simulated dut to technical reasons. The particle reconstruction was not optimised for the gap region between the barrel and the end cap region for the CLIC\_ILD detector. Therefore by confining to the barrel and the end cap region only, a consistent high particle reconstruction efficiency is ensured.
+
+
+Events were simulated with software MOKKA \cite{MoradeFreitas:2002kj} with the CLIC\_ILD detector geometry description, based on the GEANT 4 package  \cite{Agostinelli:2002hh}. Reconstruction was done with ilcsoft version v01-17-07 \cite{Gaede:82475} and PandoraPFA version v02-02-00 \cite{Marshall:2015rfa}, where the photon reconstruction is described in \cite{Xu:2016rcz}.
+
 
 \section{Analysis strategy}
 
 \begin{table}[htbp]
 \centering
-\caption{\label{tab:decay_mode} Branching fractions of the seven \PGtm decays in this study, taken from \cite{Agashe:2014kda}. \PGtp decays similarly to \PGtm.}
+\caption{\label{tab:decay_mode} Branching fractions of the seven \PGtm decays in this study\cite{Agashe:2014kda}. \PGtp decays similarly to \PGtm.}
 \smallskip
-\begin{tabular}{|l |r|}
+\begin{tabular}{|l |c|}
 \hline
   \textbf{Decay mode} & \textbf{Branching fraction / \%} \\
 \hline
@@ -198,70 +186,98 @@ The events were simulated at \rootS = 100, 200, 500 and 1000 GeV, with different
 \end{tabular}
 \end{table}
 
-Seven decay final states of the tau lepton shown in table~\ref{tab:decay_mode} were studied, covering 92.58\,\% of all tau decays. The decay modes not covered have branching fractions lower than 1\% each. These final states can be classified into three categories: leptonic decays, one-prong with photons and three-prong with photons. 
+The  seven tau lepton decay modes were condidered, shown in table~\ref{tab:decay_mode}. These decay modes cover 92.58\,\% of all tau decays. The neglected decay modes each have branching fractions below 1\%. 
 
-The channel \Pem\Pep $\to$ \PGtm\PGtp contains two \PGt travelling back-to-back. As we are interested in single \PGt decay, the detector fiducial space is divided into two halves, each corresponding to one \PGt. The division was performed with the thrust axis, where defined as 
-$T = max_{\hat{n}} \frac {\sum_i \left| p_i . \hat{n} \right|}{\sum_i \left| p_i \right|}$. $p_i$ is the momentum three-vector of a Particle Flow Object (PFO), $\hat{n}$ is the thrust axis, a unit 3-vector that maximise the thrust, $T$. PFOs were separated into two collections based on the sign of the dot product between the momentum and the thrust axis vector.
+%The chosen final states can be classified into three categories: leptonic decays, one-prong with photons and three-prong with photons. 
 
-\begin{figure}[htbp]
+This study focuses on the reconstuction and classcification of single tau decay. Therefore, two tau leptons in \eeToTauTau channel are separated using thrust variable. Thrust axis is the best fitted line of all particles' momentum. The sign of the dot product between the thrust axis and the particle' momentum separates particles into one of the two collections. Two collections correspond to decay products of two tau leptons. This method is valid because two taus from \eeToTauTau are largely travelling in opposite direction. Formally the definition of  thrust axis is
+\begin{equation}
+T = max_{\hat{n}} \frac {\sum_i \left| p_i . \hat{n} \right|}{\sum_i \left| p_i \right|} \,,
+\end{equation}
+where $p_i$ is the particle $i$'s momentum. $\hat{n}$ is the thrust axis.
+
+
+
+\begin{figure}[!tbp]
 \centering % \begin{center}/\end{center} takes some additional vertical space
 
-\includegraphics[width=.45\textwidth]{plots/var/nPhoton_100GeV_improved} 
-\qquad
-\includegraphics[width=.45\textwidth]{plots/var/nCharge_100GeV_improved} 
-\qquad
-\includegraphics[width=.45\textwidth]{plots/var/mVis_100GeV_improved_zoom}
-\qquad
-\includegraphics[width=.45\textwidth]{plots/var/mA1A1Fit_100GeV_improved_zoom}
-\qquad
+%\subfigure[Figure A]{\label{fig:a}\includegraphics[width=60mm]{example-image-a}}
 
-\caption{\label{fig:nPfos} 
-The example normalised distribution for discriminative variables for seven final states, \decayElectron, \decayMuon, \decayPion, \decayRho, \decayAiPhoton, \decayAiPion and \decayThreePionPhoton, separated with truth information,  with \rootS = 100 \,GeV for nominal CLIC\_ILD detector model. The top left and top right, bottom left and bottom right plots are the normalised entries against the number of photons, number of charged PFOs, invariant mass of visible PFOs and the invariant mass of \decayAiPhotonShort for \decayAiPhotonShort hypothesis, respectively. There is a clear distinction between different final states in each plot.
+\begin{subfigure}[b]{0.45\textwidth}
+ \includegraphics[width=\textwidth]{plots/var/nPhoton_100GeV_improved} 
+  \caption{}
+  \label{fig:nPfos}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+ \includegraphics[width=\textwidth]{plots/var/nCharge_100GeV_improved} 
+  \caption{}
+  \label{fig:nCharge}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth}
+ \includegraphics[width=\textwidth]{plots/var/mVis_100GeV_improved_zoom}
+  \caption{}
+  \label{fig:mVis}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+ \includegraphics[width=\textwidth]{plots/var/mA1A1Fit_100GeV_improved_zoom}
+  \caption{}
+  \label{fig:mA1}
+\end{subfigure}
+
+\caption{Normalised distribution for discriminative variables for seven tau decay modes, \decayElectron, \decayMuon, \decayPion, \decayRho, \decayAiPhoton, \decayAiPion, and \decayThreePionPhoton,  with \rootS = 100 \,GeV for nominal CLIC\_ILD detector model. Figure~\ref{fig:nPfos} is the number of photons. Figure~\ref{fig:nCharge} is the number of charged PFOs. Figure~\ref{fig:mVis} is the invaraint mass of visible PFOs. Figure~\ref{fig:mA1} is the invaraint mass of \decayAiPhotonShort, calcuated with \decayAiPhotonShort hypothesis. 
 }
+\label{fig:var} 
 \end{figure}
 
-To identify the decay mode of \PGt from the decay products, a set of discriminative variables were carefully calculated and chosen. The full list of variables can be found in the appendix. There are 29 variables used in the multivariate analysis. The reason for the large number of variables is due to training seven decay modes at once, which will be discussed later.
+A set of discriminative variables were carefully developed, listed in the appendix. The reason for the large number of variables is due to training seven decay modes at once with the multvariate analysis, which will be discussed later. For the ease of dicussion and the similarity in event topologies, seven decay modes can be can be classified into three categories: leptonic decays, one-prong decays with photons and three-prong decays with photons. Leptonic decays refer to \decayElectron and \decayMuon. One-prong decays refer to \decayPion, \decayRho, and \decayAiPhoton. Three-prong decays refer to \decayAiPion and \decayThreePionPhoton.
 
-Some of the variables with most discriminative power are shown in figure~\ref{fig:nPfos}. 
 
-Number of photons is an important variable for separating decay modes. This information is only available due to the excellent photon reconstruction. Shown in figure~\ref{fig:nPfos}, the majority of \decayMuon, \decayPion and \decayAiPion final states have zero photon reconstructed. The \decayElectron final state event have one photon reconstructed instead of zero, due to the FSR effect. \decayRho and \decayThreePionPhoton have nearly 80\% events with two reconstructed photons, whilst \decayAiPion have over 60\% events with four reconstructed photons. The loss is efficiency is due to the increasing difficulty to separate nearby photons.
+%To identify the decay mode of \PGt from the decay products, a set of discriminative variables were carefully calculated and chosen. The full list of variables can be found in the appendix. There are 29 variables used in the multivariate analysis. The reason for the large number of variables is due to training seven decay modes at once, which will be discussed later.
 
-The number of charged PFOs can clearly separate the leptonic and 1-prong final states, from the 3-prong final states, shown in figure~\ref{fig:nPfos}. The efficiency of leptonic final states are over 98\%. 
+%Some of the variables with most discriminative power are shown in figure~\ref{fig:nPfos}. 
 
-The invariant mass of the visible PFOs shows clear differences between different final states. \decayRho, \decayAiPhoton and \decayAiPion distribution show clear resonance at \PGrP and \Pa. \decayElectron, \decayMuon and \decayPion distribution show much smaller invariant mass and \decayThreePionPhoton shows a large invariant mass than \Pa. The \decayElectron final state has a long tail of invariant mass due to the extra photons from the FSR.
+The Number of photons is an important variable. It gives an excellent separation, due to excellent photon reconstruction provided by PandoraPFA. As shown in figure~\ref{fig:nPfos}, majority of \decayMuon, \decayPion and \decayAiPion final states have zero photon reconstructed. Nearly half of \decayElectron final state events have one photon reconstructed instead of zero, due to FSR. \decayRho and \decayThreePionPhoton have nearly 80\% events with two reconstructed photons, whilst \decayAiPion have over 60\% events with four reconstructed photons. The loss of photon reconstruction efficiency is because the difficulty of separating nearby photons.
 
-For the final states with resonance, additional $\chi^{2}$ minimisation test for particle pairings have been performed. For example, \decayAiPhoton final state, the  $\chi_{\Pa}^{2}$ to minimise is,
+The number of charged PFOs, shown in figure~\ref{fig:nCharge}, represent number of associate tracks to calorimeter cluters. It can clearly separate the leptonic and 1-prong final states, from the 3-prong final states. The charged PFO selection efficiency of leptonic final states are over 98\%.
+
+The invariant mass of the visible PFOs, shown in figure~\ref{fig:mVis} is another powerful variable. \decayRho, \decayAiPhoton and \decayAiPion distributions show clear resonance at \PGrP{770} and \PaDoP{1260}. \decayElectron, \decayMuon and \decayPion distributions show much smaller invariant mass. \decayThreePionPhoton final state has a larger invariant mass than \PaDoP{1260}. The \decayElectron final state has a long tail of invariant mass due to extra photons from the FSR.
+
+The resonance at \PGrP{770} and \PaDoP{1260}, shown in figure~\ref{fig:mVis}, can be further exploited to enhance the decay modes classification. For example, \decayAiPhoton decay mode has one \PGpm and four \PGg in the final state. By demanding two \PGg pairs having invariant mass close to that of a \PGpz, and  invariant mass of one \PGpm plus four \PGg close to that of a \PaDoP{1260}, resonace at \PaDoP{1260} is enhanced and the loss of efficiency in the reconstruction is compensated. In this example, if fewer than four \PGg are reconsrtructed, photon pairs would assume to merged in the reconstruction. This process would demand only one \PGg pair  having invariant mass close to that of a \PGpz, and invariant mass of one \PGpm plus all \PGg close to that of a \PaDoP{1260}. Simiarly, if there is fewer than  two \PGg, this process would just demand one \PGpm plus one \PGg having invariant mass close to that of a \PaDoP{1260}.
+
+Formally, this resonance enhancement procedure is done via a $\chi^{2}$ minimisation. Using \decayAiPhoton final state as the exmaple, $\chi^{2}$ to minimise i defined as
 
 \begin{equation}
 \label{eq:a1}
 \chi_{\Pa}^{2} = {\left(\frac{m_{\Pa,fit} -  m_{\Pa}}{\sigma_{\Pa}}\right)}^{2} + {\left(\frac{{m_{\PGpz,fit}} -  m_{\PGpz}}{\sigma_{\PGpz}}\right)}^{2} + {\left(\frac{{m_{\PGpz^*,fit}} -  m_{\PGpz}}{\sigma_{\PGpz}}\right)}^{2}  \,,
 \end{equation}
 
-where $m_{\PGpz,fit}$ and $m_{\PGpz^*,fit}$  are the invariant masses of all possible two photons combinations, $\sigma_{\Pa}$ and $\sigma_{\PGpz}$ are the half width of the invariant mass distribution of reconstructed \Pa and \PGpz using the truth information, and $m_{\Pa}$ and $m_{\PGp}$ are the masses of \Pa and \PGpz, taken from \cite{Agashe:2014kda}. If there are two or three photons, the $\chi_{\Pa}^{2}$ expression will be reduced and not including $m_{\PGpz^*,fit}$ term. If there are fewer than two photons, the $\chi_{\Pa}^{2}$ expression would only contain $m_{\Pa,fit}$ term.
+where $m_{\PGpz,fit}$ and $m_{\PGpz^*,fit}$  are the invariant masses of all possible two photons combinations, $\sigma_{\Pa}$ and $\sigma_{\PGpz}$ are the half width of the invariant mass distribution of reconstructed \Pa and \PGpz using the truth information, and $m_{\Pa}$ and $m_{\PGp}$ are the masses of \Pa and \PGpz, taken from \cite{Agashe:2014kda}. This minisation, resonance enhancement sheme, for  \decayAiPhoton final state is called \decayAiPhoton hypothesis test, for short.
+
+Figure~\ref{fig:mA1} shows the $m_{\Pa,fit}$ for \decayAiPhoton hypothesis test. \decayRho, \decayAiPhoton  and \decayThreePionPhoton final states contribute to the \Pa resonance, although only \decayAiPhoton final has a real \Pa resonance. 
+
+For the \decayRho final state, a similar resonance enhancement sheme is used.
 
 
-For the \decayRho final state, a similar $\chi_{\PGr}^{2}$ test for \PGr hypothesis is used to extract $m_{\PGr,fit}$ and $m_{\PGpz,fit}$ variables. $\chi_{\PGr}^{2}$ is similar to $\chi_{\Pa}^{2}$ with \PGr replacing \Pa and only one $m_{\PGpz,fit}$ term.
+Additional variables include number of particles, energies, invariant mass of \PGmpm, \Pepm, \PGg and charged PFOs. Futher separation between \decayElectron and \decayPion decay states are improved with calorimeter information. The information includes comparison of observed and expected electromagnetic shower profile, the maching between inner detector tracks and calorimeter clusters, and the fraction of calorimeter hits registered as minimum ionised particles.
 
 
-Figure~\ref{fig:nPfos} shows the $m_{\Pa,fit}$ where \decayRho, \decayAiPhoton  and \decayThreePionPhoton final states contribute to the \Pa resonance, although only \decayAiPhoton final has a real \Pa resonance. This is due to the structure of the  $\chi_{\Pa}^{2}$ minimisation function allowing final states with more than two photons and one \PGppm to contribute.
-
-Additional variables are calculated using the calorimeter information, the comparison with the electromagnetic shower profile, the matching between the track and the cluster, the energy and invariant masses for different types of particles. Extra variables regarding to the electromagnetic shower profile are used to distinguish electrons from charged pions.
+%Additional variables are calculated using the calorimeter information, the comparison with the electromagnetic shower profile, the matching between the track and the cluster, the energy and invariant masses for different types of particles. Extra variables regarding to the electromagnetic shower profile are used to distinguish electrons from charged pions.
 
 %, listed in Table XX. Note that XX variables were specialised in separating a electron from a pion. XX variables were made to test the hypothesis of XX particles. The rho hypothesis is to find the best rho decay candidates by minimising chi squared according to $aa$, where X is all possible charge pions, Y is all possible 2 photons. The formula will reduce accordingly if there is 1 photon. Similarly, the a1 decaying to 1 pion 4 photon hypothesis is done in a same fashion with Chi squared function XX, , where X is all possible charge pions, Y is all possible 2 photons. The formula will reduce accordingly if there are 2 or 3 photons.
 
-Energy of the \PGt is assume to be the same as the energy of \Pepm beam, which is half of the \rootS energy. Recoil momenta were calculated assuming the \Pem\Pep collision happened at the centre of mass energy. Both assumptions are largely valid when there is no ISR contribution. %The variables of energy ratios instead of the raw energies were calculated to make the MVA process more generic across different c.o.m. energies.
+%The variables of energy ratios instead of the raw energies were calculated to make the MVA process more generic across different c.o.m. energies.
 
-For the multivariate analysis, the multiclass class of the TMVA package \cite{Therhaag:2009dp} was used to perform a multiclass classification, which trains the seven final states simultaneously. The multiclass class is an extension of the standard two-class signal-background classifier. For each final state, the multiclass classifier will train the final state as the signal against all other final states as the background. This process is repeated for each final state. The classifier output for a single event is a normalised response for each final state, where the sum is one. The response of each final state of a event can be treated as the likelihood. The event is classified into a particular final state if the final state has the highest classifier output response. The advantage of using the multiclass is that the correlation between different final states are accounted for and the classifier output are correctly adjusted for multiple final states, hence one event can only be classified into one final state. The issue with the multiclass is that discriminative variables for each final state need enter the training stage, resulting in a large number of variables. 
+For the multivariate analysis, the multiclass of the TMVA package \cite{Therhaag:2009dp} was used to perform a multiclass classification, which trains the seven final states simultaneously. The multiclass class is an extension of the standard two-class signal-background classifier. For each final state, the multiclass classifier will train the final state as the signal against all other final states as the background. This process is repeated for each final state. The classifier output for a single event is a normalised response for each final state, where the sum is one. The response of each final state of a event can be treated as the likelihood. The event is classified into a particular final state if the final state has the highest classifier output response. The advantage of using the multiclass is that the correlation between different final states are accounted for and the classifier output are correctly adjusted for multiple final states, hence one event can only be classified into one final state. The issue with the multiclass is that discriminative variables for each final state need enter the training stage, resulting in a large number of variables. 
 
-Half of the randomly selected samples were used in the training process and the other half were used for testing. 
+Half of the events, randomly selected, were used in the training process and the other half were used for testing. The TMVA multiclass classifier is a boosted decision tree with gradient boosting (BDTG), as it was found to give for the best performance. The MVA classifier is trained and optimised to give the best overall separation across all final states.
 
-The TMVA multiclass classifier used is boosted decision tree with gradient boosting (BDTG), as it was found to give for the best performance. The MVA classifier is trained and optimised to give the best overall separation across all final states.
-
-\section{Results and discussion}
+\section{Results}
 
 \begin{table}[htbp]
 \centering
-\caption{\label{tab:sel_example} The probability of reconstruction of true decay modes in columns in percent, with \rootS = 100 \,GeV for nominal CLIC\_ILD detector model. Bold numbers show the correctly reconstructed terms. Numbers less than 0.25\% are not shown. Statistical uncertainties are less than 0.25\%. Final states include \PGnGt, which is not shown.}
+\caption{\label{tab:sel_example} Classification probability for tau decay modes in columns in percentage of \rootS = 100 \,GeV in the nominal CLIC\_ILD detector model. Bold numbers show the correctly reconstructed terms. Numbers less than 0.25\% are not shown. Statistical uncertainties are less than 0.25\%. \PGnGt in final states are not shown.}
 \smallskip
 \small
 \begin{tabular}{| l | r | r | r | r | r | r | r |}
@@ -269,83 +285,119 @@ The TMVA multiclass classifier used is boosted decision tree with gradient boost
   \textbf{Reco $\downarrow$ True $\to$}  & \textbf{\decayElectronShort} & \textbf{\decayMuonShort} &\textbf{\decayPionShort} & \textbf{\decayRhoShort} &\textbf{\decayAiPhotonShort} &\textbf{\decayAiPionShort} &\textbf{\decayThreePionPhotonShort} \\
 \hline
 
-\textbf{\decayElectronShort}&\boldmath{99.8}&-&0.9&1.1&0.8&-&-\\
-\textbf{\decayMuonShort}&-&\boldmath{99.5}&0.5&-&-&-&-\\
-\textbf{\decayPionShort}&-&0.3&\boldmath{93.2}&0.9&-&0.4&-\\
-\textbf{\decayRhoShort}&-&-&4.1&\boldmath{93.0}&10.5&0.6&2.8\\
-\textbf{\decayAiPhotonShort}&-&-&-&4.3&88.2&-&1.0\\
-\textbf{\decayAiPionShort}&-&-&1.0&0.3&-&\boldmath{96.6}&6.9\\
-\textbf{\decayThreePionPhotonShort}&-&-&-&0.4&0.4&2.4&\boldmath{89.3}\\
+\textbf{\decayElectronShort}&\textbf{99.8}&-&0.9&1.1&0.8&-&-\\
+\textbf{\decayMuonShort}&-&\textbf{99.5}&0.5&-&-&-&-\\
+\textbf{\decayPionShort}&-&0.3&\textbf{93.2}&0.9&-&0.4&-\\
+\textbf{\decayRhoShort}&-&-&4.1&\textbf{93.0}&10.5&0.6&2.8\\
+\textbf{\decayAiPhotonShort}&-&-&-&4.3&\textbf{88.2}&-&1.0\\
+\textbf{\decayAiPionShort}&-&-&1.0&0.3&-&\textbf{96.6}&6.9\\
+\textbf{\decayThreePionPhotonShort}&-&-&-&0.4&0.4&2.4&\textbf{89.3}\\
 
 \hline
 \end{tabular}
 \end{table}
 
-The reconstruction efficiencies for the seven final state of the tau decaying with c.o.m. energy of 100 \,GeV for the nominal CLIC\_ILD detector are shown in the table~\ref{tab:sel_example}. The perfect reconstruction would result in only terms in the diagonal. 
+Table~\ref{tab:sel_example} shows classification probabilities for seven tau decay final states of 100 \,GeV in  the nominal CLIC\_ILD detector model. An ideal reconstruction would have diagonal terms in the table. 
 
-For leptonic decay, the selection efficiency is above 99.5\% as the tracking system have much better resolution than the calorimeter. 
+%The reconstruction efficiencies for the seven final state of the tau decaying with c.o.m. energy of 100 \,GeV for the nominal CLIC\_ILD detector are shown in the 
+%For the leptonic decays, the correct classifiction probabilities are above 99.5\%, aided by the tracking system, which offers precision position and momentum measurements.
 
-For \decayPionShort final state, the main misclassification is reconstructed as \decayRhoShort, as the topology could be similar when photons are not properly reconstructed. There is sub-percent level misclassification as leptonic decay.
+The \decayMuonShort final state has very clear topology, as muon deposits energy in the muon chamber. Therefore, there is little confusion with other final states.
 
-For \decayRhoShort and \decayAiPhotonShort final state, the main misclassification is between the two states, again due to the photons not properly reconstructed. This is a test for the photon reconstruction. There is also percent level misclassification as leptonic decay.
+\decayElectronShort final state is well separated, due to variables aimed to differentiate early hadronic shower to electromagnetic shower. 
 
-For 3-prong final states, the main misclassification is between the two states, due to the photons not properly reconstructed and events busier with more PFOs. 
+For the leptonic decays, the correct classifiction probabilities are above 99.5\%, aided by the tracking system, which offers precision position and momentum measurements
 
-The unprecedented high classification rate has been achieved. The classification is being tested with the impact of different \rootS and different ECal  square cell sizes.
+For one prong final states, \decayPionShort, \decayRhoShort, and \decayAiPhotonShort, the confusion is mainly due to the inability to separate two neabrby photons originated form \Ppizero, which is limited by the calorimeter spatial resolution.. 
 
-% %Discuss table
+Similarly the confusion between 3-prong final state, \decayAiPionShort, and \decayThreePionPhotonShort is caused by same inability to resolove two nearby photons.
 
+Overall a rather high correct classification probability for each tau decay mode is achieved. 
 
-The study was repeated with  \rootS = 100, 200, 500, 1000 GeV. The ECal square cell sizes were also varied at 3, 5, 7, 10, 15 and 20\,mm, whilst keeping the the total ECal size constant. The results table were are in the appendix X. 
+\section{Electromagnetic caloritmeter optimisation}
+
+The classification was with  \rootS = 100, 200, 500, 1000 GeV. The ECal square cell sizes were varied at 3, 5, 7, 10, 15 and 20\,mm, whilst keeping other ECal dimention constant. 
 
 \begin{figure}[htbp]
 \centering % \begin{center}/\end{center} takes some additional vertical space
-%\includegraphics[width=.45\textwidth]{plots/decayMode0} 
-%\qquad
-%\includegraphics[width=.45\textwidth]{plots/decayMode1} 
-%\qquad
-\includegraphics[width=.45\textwidth]{plots/decayMode2}
-\qquad
-\includegraphics[width=.45\textwidth]{plots/decayMode3} 
-\qquad
-\includegraphics[width=.45\textwidth]{plots/decayMode4} 
-\qquad
-\includegraphics[width=.45\textwidth]{plots/decayMode5}
-\qquad
-\includegraphics[width=.45\textwidth]{plots/decayMode6}
-\qquad
-\includegraphics[width=.45\textwidth]{plots/legend}
+
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/decayMode2}
+  \caption{}
+  \label{fig:decayMode2}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/decayMode3}
+  \caption{}
+  \label{fig:decayMode3}
+\end{subfigure}
+
+
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/decayMode4}
+  \caption{}
+  \label{fig:decayMode4}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/decayMode5}
+  \caption{}
+  \label{fig:decayMode5}
+\end{subfigure}
+
+
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/decayMode6}
+  \caption{}
+  \label{fig:decayMode6}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{plots/legend}
+  %\caption{}
+  %\label{fig:legend}
+\end{subfigure}
+
 %\qquad
 %\includegraphics[width=.4\textwidth]{plots/hadEff}
 % "\includegraphics" from the "graphicx" permits to crop (trim+clip)
 % and rotate (angle) and image (and much more)
-\caption{\label{fig:pion_efficiency} The selection efficiencies for various final states against the ECal cell size for different c.o.m. energies with the nominal CLIC\_ILD detector model are shown. The top left, top right, middle left, middle right and bottom left plots are for the \decayPion, \decayRho,  \decayAiPhoton, \decayAiPion  and \decayThreePionPhoton  final states respectively. From the top to the bottom, blue, orange, green and red lines are representing the \rootS = 100, 200, 500 and 1000\,GeV respectively. Note that the y axis are not the same for displaying purpose.}
+\caption{\label{fig:pion_efficiency} The correct classcification probabilities for various final states against the ECal cell size of different c.o.m. energies in the nominal CLIC\_ILD detector model. Figure~\ref{fig:decayMode2}, ~\ref{fig:decayMode3}, ~\ref{fig:decayMode3}, ~\ref{fig:decayMode4}, ~\ref{fig:decayMode5} are for the \decayPion, \decayRho,  \decayAiPhoton, \decayAiPion  and \decayThreePionPhoton  final states, respectively. Blue, orange, green and red lines are representing  \rootS = 100, 200, 500 and 1000\,GeV respectively. Note that the y axis are not all the same, for display purposesy.}
 \end{figure}
 
-To compare the impact of the ECAL cell sizes and the \rootS energies on the separation of tau final states, the selection efficiencies were plotted in the figure~\ref{fig:pion_efficiency}. The leptonic decay selection efficiencies are not shown as they are similar across different ECal cell sizes. This is because the \Pepm and \PGmpm identifications mostly rely on the tracking system, which was not varied in this study. The energy deposited in the calorimeter are used for the association to the tracks but it has a small impact on the lepton identification. 
+The impact of the ECAL cell sizes and the \rootS energies on the classification probabilities of tau decay modes are shown in figure~\ref{fig:pion_efficiency}. The correct classification probabilities of leptonic decays are not shown, as they are similar across different ECal cell sizes. This is because the \Pepm and \PGmpm identifications mostly rely on the inner detector tracking system, which does not vary in this study. The energy deposited in the calorimeter are used for the association to the inner detector tracks, but it has a small impact on the lepton identification. 
 
-Overall, the hadronic decay selection efficiency decreases as the \rootS energy increases. This is due to the fact that when {\PGt}s are boosted at higher \rootS energies, the separation between decay products is smaller. Hence it is more difficult to reconstruct multi-photon final states correctly.
+Overall, the correct classification probabilites of hadronic decays decrease as the \rootS energy increases. Taus are boosted at higher \rootS, the separation between decay products is smaller. Hence it is more difficult to reconstruct multi-particle final states correctly.
 
-As the ECal cell sizes increase, the reconstruction efficiencies generally decrease. Larger cell sizes have lower spatial resolutions, making the separating of nearby photons more difficult.
+The correct classification probabilites decrease as the ECal square cell size increases. Larger cell sizes means that the ECal offers a lower spatial resolutions, making the separation of nearby particles more difficult.
 
-For the \decayAiPhoton final state, the selection efficiency for 500\,GeV rises from ECal cell sizes 15\,mm to 20\,mm and the one for 1000\,GeV rises from 7\,, to 20\,mm actually goes up as cell size increases. This is because when the algorithm can not reconstruct four photons in the \decayAiPhoton final state, and the event topology would be very similar to the \decayRho final states. 
 
-For the \rootS = 100 and 200\,GeV, the selection efficiency of the 5\,mm ECal cell size is better than that of the 3\,mm. One possible explanation is that the  and the PandoraPFA have been optimised for the nominal ILD detector with the 5\,mm ECal cell size, which shares the same ECal structure with the nominal CLIC\_ILD detector.
+
+For the \decayRho final state, the correct classification probabilites for \rootS = 500\,GeV rises for ECal sqaure cell sizes from 15 to 20\,mm, and for  \rootS = 1000\,GeV from 7, to 20\,mm. This is compensated with the sharp drop in correct classification probabilites for the \decayAiPhoton final state in the same \rootS and the same energy. When reconstruction fails to separate nearby photons, the event topologies of two final states are very similar.
+
+
+
+For \rootS = 100 and 200\,GeV, the correct classification probabilites for the 5\,mm ECal cell size is better than that of the 3\,mm. One possible explanation is that the PandoraPFA have been optimised for the nominal ILD detector with the 5\,mm ECal cell size, which shares the same ECal structure with the nominal CLIC\_ILD detector.
+
+
 
 \begin{figure}[htbp]
 \centering % \begin{center}/\end{center} takes some additional vertical space
 \includegraphics[width=.45\textwidth]{plots/hadronicEff}
 % "\includegraphics" from the "graphicx" permits to crop (trim+clip)
 % and rotate (angle) and image (and much more)
-\caption{\label{fig:hadronic_efficiency} The \PGt hadronic decay selection efficiency against the ECal cell size for different \rootS energies with the nominal CLIC\_ILD detector model are shown. The blue, orange, green and red lines are representing the \rootS = 100, 200, 500 and 1000\,GeV respectively.}
+\caption{\label{fig:hadronic_efficiency} The tau lepton hadronic decay correct classification probability as a function of the ECal sqaure cell size for different \rootS,   in the nominal CLIC\_ILD detector model. Blue, orange, green and red lines represent \rootS = 100, 200, 500 and 1000\,GeV, respectively.}
 \end{figure}
 
-In order to compare the overall separation power of all the final states across c.o.m. energy and the ECal cell sizes, we constructed a single parameter function, the  \PGt hadronic decay final state efficiency function, 
+Overall classification performance across all decay modes can be compared by constructing a single parameter function, which is a weighted average of correct classification probability for each decay modes. This single parameter allows the direct comparison between different ECal cell sizes, for different \rootS. It represents an overall classification performance, which MVA is optimised to.
+
+Formally, the chosen single parameter function is the tau lepton hadronic decay correct classification probability, \varepsilon_{had}, which is defined as
 \begin{equation}
 \label{eq:had}
 \varepsilon_{had} = \frac{\left(\Sigma_{i} {Br}_{i}\varepsilon_{i}\right)}{\Sigma_{i} {Br}_{i}}  \,,
 \end{equation}
-where $Br_{i}$ is the branching fraction of a hadronic final state after the generator level cut, $\varepsilon_{i}$ is the selection efficiency of the final state and the $i$ is summing over five hadronic decay final state of \PGt. Leptonic decays, \decayElectron and \decayMuon, were not included as the variation of the leptonic decay selection efficiency is small.
+where $Br_{i}$ is the branching ratio of a hadronic decay mode after the generator level cut in section~\ref{section:MC}. $\varepsilon_{i}$ is the selection efficiency of the final state and the $i$ is summing over five hadronic decay final state of \PGt. Leptonic decays, \decayElectron and \decayMuon, were not included as the variation of the leptonic decay selection efficiency is small.
 
 In the figure~\ref{fig:hadronic_efficiency}, \PGt hadronic decay final state efficiency, $\varepsilon_{had}$, against the ECal cell size with different \rootS is shown. $\varepsilon_{had}$ decreases when cell sizes increases and when \rootS increases.  Again, $\varepsilon_{had}$ of the 5\,mm ECal cell size is better than that of the 3\,mm for 100 and 200\,GeV lines possibly due the optimisation of the software fro the nominal ILD 5\,mm cell size.
 
@@ -385,7 +437,8 @@ The paper illustrated the usage of reconstruction of the tau decay modes as a be
 \appendix
 \section{Variables for multivariate analysis}
 
-Here is a full list of all variables used in the multivariate analysis.
+Here is a full list of all variables used in the multivariate analysis. Energy of the \PGt is assume to be the same as the energy of \Pepm beam, which is half of the \rootS energy. Recoil momenta were calculated assuming the \Pem\Pep collision happened at the centre of mass energy. 
+%Both assumptions are largely valid when there is no ISR contribution.
 
 \begin{itemize}
 \item  $\frac{E_{ECal,HCal}}{E_{tot}}$, charged:  Sum of energy deposited in ECal and HCal, divided by the energy of charged particles  

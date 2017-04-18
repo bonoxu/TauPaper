@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{Schael:2005am}
+ALEPH collaboration, S.~Schael {\em et~al.},
+\newblock Phys. Rept. {\bf 421}, 191 (2005).
+%%CITATION = HEP-EX/0506072;%%
+
+\bibitem{Riles:1992rd}
+K.~Riles,
+\newblock Int. J. Mod. Phys. {\bf A7}, 7647 (1992).
+%%CITATION = IMPAE,A7,7647;%%
+
+\bibitem{Berge:2015nua}
+S.~Berge, W.~Bernreuther, and S.~Kirchner,
+\newblock Phys. Rev. {\bf D92}, 096012 (2015).
+%%CITATION = ARXIV:1510.03850;%%
+
+\bibitem{Abreu:1991jn}
+DELPHI collaboration, P.~Abreu {\em et~al.},
+\newblock Phys. Lett. {\bf B267}, 422 (1991).
+%%CITATION = PHLTA,B267,422;%%
+
+\bibitem{Abe:2010aa}
+ILD Concept Group, T.~Abe {\em et~al.},
+\newblock (2010), 1006.3396.
+%%CITATION = ARXIV:1006.3396;%%
+
+\bibitem{Baer:2013cma}
+ILC collaboration, H.~Baer {\em et~al.},
+\newblock (2013), 1306.6352.
+%%CITATION = ARXIV:1306.6352;%%
+
+\bibitem{Thomson:2009rp}
+M.~A. Thomson,
+\newblock Nucl. Instrum. Meth. {\bf A611}, 25 (2009).
+%%CITATION = ARXIV:0907.3577;%%
+
+\bibitem{Behnke:2007gj}
+ILC collaboration, T.~Behnke {\em et~al.},
+\newblock (2007), 0712.2356.
+%%CITATION = ARXIV:0712.2356;%%
+
+\bibitem{Marshall:2015rfa}
+J.~S. Marshall and M.~A. Thomson,
+\newblock Eur. Phys. J. {\bf C75}, 439 (2015).
+%%CITATION = ARXIV:1506.05348;%%
+
+\bibitem{Linssen:2012hp}
+CLIC collaboration, L.~Linssen, A.~Miyamoto, M.~Stanitzki, and H.~Weerts,
+\newblock (2012), 1202.5940.
+%%CITATION = ARXIV:1202.5940;%%
+
+\bibitem{Brau:2007zza}
+ILC collaboration, J.~Brau {\em et~al.},
+\newblock (2007).
+%%CITATION = ILC-REPORT-2007-001 ETC.;%%
+
+\bibitem{Xu:2016rcz}
+B.~Xu,
+\newblock {Improvement of photon reconstruction in PandoraPFA},
+\newblock in {\em {Proceedings, International Workshop on Future Linear
+  Colliders (LCWS15): Whistler, B.C., Canada, November 02-06, 2015}}, 2016,
+  1603.00013.
+%%CITATION = ARXIV:1603.00013;%%
+
+\bibitem{whizard}
+W.~Kilian, T.~Ohl, and J.~Reuter,
+\newblock Eur. Phys. J. {\bf C71}, 1742 (2011).
+%%CITATION = ARXIV:0708.4233;%%
+
+\bibitem{Sjostrand:1995iq}
+T.~Sjostrand,
+\newblock (1995), hep-ph/9508391.
+%%CITATION = HEP-PH/9508391;%%
+
+\bibitem{Jadach:1993hs}
+S.~Jadach, Z.~W\c{a}s, R.~Decker, and J.~H. Kuhn,
+\newblock Comput. Phys. Commun. {\bf 76}, 361 (1993).
+%%CITATION = CPHCB,76,361;%%
+
+\bibitem{MoradeFreitas:2002kj}
+P.~Mora~de Freitas and H.~Videau,
+\newblock {Detector simulation with MOKKA / GEANT4: Present and future},
+\newblock in {\em {Linear colliders. Proceedings, International Workshop on
+  physics and experiments with future electron-positron linear colliders, LCWS
+  2002, Seogwipo, Jeju Island, Korea, August 26-30, 2002}}, pp. 623--627, 2002.
+%%CITATION = LC-TOOL-2003-010;%%
+
+\bibitem{Agostinelli:2002hh}
+GEANT4 collaboration, S.~Agostinelli {\em et~al.},
+\newblock Nucl. Instrum. Meth. {\bf A506}, 250 (2003).
+%%CITATION = NUIMA,A506,250;%%
+
+\bibitem{Gaede:2006pj}
+F.~Gaede,
+\newblock Nucl. Instrum. Meth. {\bf A559}, 177 (2006).
+%%CITATION = NUIMA,A559,177;%%
+
+\bibitem{Agashe:2014kda}
+Particle Data Group, K.~A. Olive {\em et~al.},
+\newblock Chin. Phys. {\bf C38}, 090001 (2014).
+%%CITATION = CHPHD,C38,090001;%%
+
+\bibitem{Therhaag:2009dp}
+TMVA Core Developer Team, J.~Therhaag,
+\newblock AIP Conf.Proc. {\bf 1504}, 1013 (2009).
+%%CITATION = APCPC,1504,1013;%%
+
+\end{thebibliography}

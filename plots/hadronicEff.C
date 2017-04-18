@@ -251,7 +251,7 @@
    multigraph->GetXaxis()->SetLabelSize(0.05);
    multigraph->GetXaxis()->SetTitleSize(0.05);
    multigraph->GetXaxis()->SetTitleFont(132);
-   multigraph->GetYaxis()->SetTitle("#tau^{-}->hadronic decays efficiency");
+   multigraph->GetYaxis()->SetTitle("#varepsilon_{had}");
    multigraph->GetYaxis()->SetNdivisions(506);
    multigraph->GetYaxis()->SetLabelFont(132);
    multigraph->GetYaxis()->SetLabelOffset(0.015);
@@ -491,7 +491,7 @@
    multigraph->GetXaxis()->SetLabelSize(0.05);
    multigraph->GetXaxis()->SetTitleSize(0.05);
    multigraph->GetXaxis()->SetTitleFont(132);
-   multigraph->GetYaxis()->SetTitle("#tau^{-}->hadronic decays efficiency");
+   multigraph->GetYaxis()->SetTitle("#varepsilon_{had}");
    multigraph->GetYaxis()->SetNdivisions(506);
    multigraph->GetYaxis()->SetLabelFont(132);
    multigraph->GetYaxis()->SetLabelOffset(0.015);
